@@ -1,7 +1,7 @@
 {
   "version": "26.3-26.60",
-  "commit": "0f27d7ed9316bfc93d67102c65be135711cedebb",
-  "updated": "2026-11-12",
+  "commit": "e9dc12e9a137675002025be9efa5bf8a2be4bd1e",
+  "updated": "2026-11-13",
   "categories": [
     {
       "id": "entities",
@@ -1330,7 +1330,7 @@
             {
               "number": 2789,
               "title": "Untamed Wolves Don't Attack Sheep",
-              "state": "open"
+              "state": "closed"
             }
           ],
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
