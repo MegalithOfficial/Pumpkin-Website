@@ -1,14 +1,14 @@
 {
-  "version": "26.3-26.60",
-  "commit": "e880aefa9850763ed21532266e3bccfe2064b99a",
-  "updated": "2026-11-13",
+  "version": "26.3-26.63",
+  "commit": "4f6ba98dd1162d3f3a8e2ea06f59eb39c7add6d9",
+  "updated": "2026-11-15",
   "categories": [
     {
       "id": "entities",
       "label": "Entities",
       "unit": "entities",
       "tracking": 3468,
-      "description": "All 160 entity types in the 26.3-26.60 registry, with source reviews where available. Registry presence alone does not establish behaviour parity.",
+      "description": "All 160 entity types in the 26.3-26.63 registry, with source reviews where available. Registry presence alone does not establish behaviour parity.",
       "entries": [
         {
           "id": "blaze",
@@ -1405,7 +1405,7 @@
             {
               "number": 3083,
               "title": "Wandering Trader Spawns with All Trades Locked",
-              "state": "open"
+              "state": "closed"
             }
           ],
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
