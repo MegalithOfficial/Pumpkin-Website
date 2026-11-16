@@ -1,7 +1,7 @@
 {
   "version": "26.3-26.63",
-  "commit": "4f6ba98dd1162d3f3a8e2ea06f59eb39c7add6d9",
-  "updated": "2026-11-15",
+  "commit": "79c88fdb6761fd3bc51820d1513091622f7153d9",
+  "updated": "2026-11-16",
   "categories": [
     {
       "id": "entities",
@@ -1358,6 +1358,7 @@
           "name": "Zombie Nautilus",
           "group": "Passive",
           "status": "partial",
+          "source": "crates/pumpkin-core/src/entity/passive/zombie_nautilus.rs",
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
           "review": {
             "commit": "e0cb7c01fbab5892d9dbbed0ef574c59c977d07f",
@@ -1370,6 +1371,7 @@
           "name": "Mannequin",
           "group": "Villager",
           "status": "partial",
+          "source": "crates/pumpkin-core/src/entity/decoration/mannequin.rs",
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
           "review": {
             "commit": "e0cb7c01fbab5892d9dbbed0ef574c59c977d07f",
@@ -1456,6 +1458,7 @@
           "name": "Dragon Fireball",
           "group": "Projectile",
           "status": "partial",
+          "source": "crates/pumpkin-core/src/entity/projectile/dragon_fireball.rs",
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
           "review": {
             "commit": "e0cb7c01fbab5892d9dbbed0ef574c59c977d07f",
@@ -2334,6 +2337,7 @@
           "name": "Ominous Item Spawner",
           "group": "Misc",
           "status": "partial",
+          "source": "crates/pumpkin-core/src/entity/ominous_item_spawner.rs",
           "note": "The reviewed source has changed. The previous assessment needs a new review.",
           "review": {
             "commit": "e0cb7c01fbab5892d9dbbed0ef574c59c977d07f",
@@ -3834,34 +3838,12 @@
           "ids": [
             "minecraft:structure_block"
           ],
-          "note": "The block and block entity store configuration. They do not implement capture or placement of structure contents.",
-          "items": [
-            {
-              "text": "Settings screen and NBT persistence",
-              "done": true
-            },
-            {
-              "text": "Structure capture/save/load execution",
-              "done": false
-            }
-          ],
+          "note": "The reviewed source has changed. The previous assessment needs a new review.",
           "review": {
             "commit": "e0cb7c01fbab5892d9dbbed0ef574c59c977d07f",
             "scope": "Compared the tracked behaviour claims and runtime wiring with vanilla source through Lantern. Source review; no live-client parity test.",
-            "current": true
-          },
-          "evidence": [
-            {
-              "label": "Reviewed behaviour and runtime hooks",
-              "source": "crates/pumpkin-core/src/block/blocks/structure_block.rs",
-              "line": 13
-            },
-            {
-              "label": "Reviewed behaviour and runtime hooks",
-              "source": "crates/pumpkin-core/src/block/entities/structure_block.rs",
-              "line": 30
-            }
-          ]
+            "current": false
+          }
         },
         {
           "id": "structure_void",
